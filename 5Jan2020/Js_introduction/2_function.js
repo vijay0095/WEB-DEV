@@ -42,3 +42,13 @@
 let Substract = (function(a,b){
     console.log(a-b)
 })(20,30)
+//using var
+
+var multiply = (function(a,b){
+    console.log(a*b)
+})(20,2)
+
+var multiply = (function(a,b){
+    console.log(a*b)
+})(10,8)
+
