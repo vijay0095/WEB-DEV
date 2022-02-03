@@ -20,6 +20,7 @@
 // }
 // console.log(great,typeof(great))
 
+//firstPerson store in stack... and vule assigned in Hep
 let firstPerson = {
     name : 'vijay',
     age : 26
