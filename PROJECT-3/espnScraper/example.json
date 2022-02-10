@@ -1,0 +1,63 @@
+[
+    {
+        "name": "Steve",
+        "last name": "Rogers",
+        "isAvenger": true,
+        "age": 102,
+        "Address": {
+            "city": "Brokely",
+            "state": "New York"
+        },
+        "firends": [
+            "Tony",
+            "Brosce",
+            "Bucky",
+            "Petter"
+        ]
+    },
+    {
+        "name": "Tony",
+        "last name": "Strak",
+        "isAvenger": true,
+        "age": 40,
+        "Address": {
+            "city": "Mahattan",
+            "state": "New York"
+        },
+        "firends": [
+            "Tony",
+            "Brosce",
+            "Bucky",
+            "petter"
+        ]
+    },
+    {
+        "name": "Petter",
+        "last name": "praker",
+        "isAvenger": false,
+        "age": 21,
+        "Address": {
+            "city": "Brokely",
+            "state": "New York"
+        },
+        "firends": [
+            "Tony",
+            "Brosce",
+            "Bucky"
+        ]
+    },
+    {
+        "name": "Thor",
+        "last name": "Godison",
+        "isAvenger": true,
+        "age": 10000,
+        "Address": {
+            "Planet": "Asgaad"
+        },
+        "firends": [
+            "Tony",
+            "Brosce",
+            "Bucky"
+        ]
+    }
+]
