@@ -5,6 +5,12 @@ const url = "https://www.espncricinfo.com/series/ipl-2020-21-1210595"
 const getAllMatchObj = require('./allMatch')
 const request = require('request')
 const cheerio = require('cheerio')
+
+const fs = require('fs')
+
+const path = require('path')
+let iplPath = path.join(__dirname,'IPL') //__dirname give the path in which directory you work
+dirCreator(iplPath)
 //request url with callback function
 request(url, cb)
 //function for call back
@@ -30,4 +36,9 @@ function extractLink(html) {
     getAllMatchObj.getAllMatch(fullLink)// but we have to required all Matchs link so 
 
 }
-//taking url o veiwresult
+
+function dirCreator(filePath){
+    if(fs.existsSync(filePath) == false){
+        fs.mkdirSync(filePath)
+    }
+}
