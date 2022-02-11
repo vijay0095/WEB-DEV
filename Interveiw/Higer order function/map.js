@@ -7,7 +7,7 @@
 //MAP is itself a funciton which is predefined in JS
 //map takes a callback funciton as as arugument 
 //map will call the callback function as many times  as the alement of array'
-// 
+// map wil provide into new array
 let arr = [2,4,5,7,9,]
 
 let sqarr = arr.map(function(n){
