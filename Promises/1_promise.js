@@ -1,3 +1,4 @@
+//promises will go in to microtask queue  and it higher priorirty than the callback queue
 const { Console } = require('console')
 let fs = require('fs')
 
